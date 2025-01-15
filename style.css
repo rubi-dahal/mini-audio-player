@@ -11,7 +11,7 @@ nav{
 nav ul{
     display: flex;
     list-style-type: none;
-    height: 80px;
+    height: 60px;
     font-size: 20px;
     background-color: #74788C;
     align-items: center;
@@ -26,7 +26,7 @@ nav ul li{
     
 }
 .brand{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -36,7 +36,7 @@ nav ul li{
 
 }
 .container{
-    min-height: 70vh;
+    min-height: 60vh;
     background-color: #090909;
     color: antiquewhite;
     display: flex;
@@ -44,13 +44,13 @@ nav ul li{
     width: 70%;
     margin: 23px auto;
     border-radius: 13px;
-    padding: 34px;
+    padding: 24px;
     background-image: url('https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
 }
 .bottom{
     position: sticky;
-    height: 120px;
+    height: 90px;
     background-color:#090909;
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@ nav ul li{
 }
 .icons{
    
-   margin: 10px;
+   margin: 15px;
    cursor: pointer;
 }
 .icons i:hover{
@@ -74,7 +74,7 @@ nav ul li{
      
 }
 .songItems{
-    height: 50px;
+    height: 35px;
     display: flex;
     background-color: #d2d5e0;;
     width: 100%;
@@ -87,12 +87,12 @@ nav ul li{
 
 }
 .songItemContainer{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .songItems img{
-    width: 43px;
+    width: 30px;
     margin:  0px 23px ;
-    height: 45px;
+    height: 30px;
     border-radius: 34px;
    
 }
@@ -113,7 +113,7 @@ nav ul li{
     left: 4.5vw;
     font-family: cursive;
     font-size: 20px ;
-    padding-top: 25px ;
+    padding-top: 15px ;
 
     
 }
@@ -125,6 +125,12 @@ nav ul li{
 }
 .songlist{
     margin: 0px 40px;
+}
+.songlist h1{
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: -20px;
+
 }
 
 
