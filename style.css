@@ -78,14 +78,14 @@ nav ul li{
      
 }
 .songItems{
-    height: 35px;
+    height: 30px;
     display: flex;
     background-color: #d2d5e0;;
     width: 100%;
     color: #090909;
     justify-content: space-between;
     align-items: center;
-    margin: 12px 0px;
+    margin: 8px 0px;
     border-radius: 23px;
     
 
