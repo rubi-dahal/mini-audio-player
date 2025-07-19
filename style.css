@@ -7,13 +7,13 @@ body{
 }
 nav{
     font-family: Arial, Helvetica, sans-serif;
-    height: 100px;
+    height: 60px;
 }
 nav ul{
     display: flex;
     list-style-type: none;
-    height: 80px;
-    font-size: 25px;
+    height: 60px;
+    font-size: 20px;
     background-color: #9756a2;
     align-items: center;
 }
@@ -27,7 +27,7 @@ nav ul li{
     
 }
 .brand{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -37,7 +37,7 @@ nav ul li{
 
 }
 .container{
-    min-height: 70vh;
+    min-height: 60vh;
     background-color: #090909;
     color: antiquewhite;
     display: flex;
@@ -51,7 +51,7 @@ nav ul li{
 }
 .bottom{
     width: 100%;
-    height: 90px;
+    height: 70px;
     background-color:#090909;
     display: flex;
    padding-top: 20px;
@@ -78,7 +78,7 @@ nav ul li{
      
 }
 .songItems{
-    height: 55px;
+    height: 35px;
     display: flex;
     background-color: #d2d5e0;;
     width: 100%;
@@ -94,9 +94,9 @@ nav ul li{
     margin-top: 40px;
 }
 .songItems img{
-    width: 40px;
+    width: 30px;
     margin:  0px 23px ;
-    height: 40px;
+    height: 30px;
     border-radius: 34px;
    
 }
@@ -109,7 +109,7 @@ nav ul li{
     cursor: pointer;
 }
 .songName{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 10px;
     width: 30vw;
     overflow: hidden;
@@ -123,7 +123,6 @@ nav ul li{
 .songInfo{
     position: absolute;
     left: 4.5vw;
-    font-family: cursive;
     font-size: 20px ;
     padding-top: 15px ;
 
@@ -157,5 +156,5 @@ nav ul li{
     color:lightblue;
 }
 .duration{
-    font-size: 20px;
+    font-size: 15px;
 }
